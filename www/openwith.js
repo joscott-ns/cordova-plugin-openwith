@@ -183,7 +183,7 @@ function initOpenwithPlugin(root) {
       handlers.forEach((handler) => {
           handler(intent);
       });
-      intents.push(intent);
+      //intents.push(intent); removed due to issues with intents not being removed after cosmption
   };
 
   // Initialize the native side at startup
